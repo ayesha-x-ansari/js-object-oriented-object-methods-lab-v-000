@@ -7,5 +7,15 @@ function BoardMember (name, homeState, training) {
     return "No, I must disagree";
   }
 
+  this.approve = function() {
+    return "You can do that!";
+  }
+
+  this.doCharity = function() {
+    return "You can do that!";
+  }
+
+
+
 
 }
