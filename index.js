@@ -16,7 +16,7 @@ function BoardMember (name, homeState, training) {
   }
 
   this.releasePressStatement  = function() {
-    return "AssertionError: expected 'You will see great things from Scuber.You can do that!' to equal 'You will see great things from Scuber.";
+    return "You will see great things from Scuber.";
   }
 /*
   this.sayHi  = function() {
