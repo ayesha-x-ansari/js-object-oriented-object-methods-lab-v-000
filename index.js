@@ -7,19 +7,19 @@ function BoardMember (name, homeState, training) {
     return "No, I must disagree";
   }
 
-  this approve = function() {
+  this.approve = function() {
     return "You can do that!";
   }
 
-  this doCharity = function() {
+  this.doCharity = function() {
     return "You can do that!";
   }
 
-  this releasePressStatement  = function() {
+  this.releasePressStatement  = function() {
     return "You will see great things from Scuber.You can do that!";
   }
 
-  this sayHi  = function() {
+  this.sayHi  = function() {
     console.log( `Hi, my name is ${this.name}. I am from ${this.homeTown}")
   }
 
