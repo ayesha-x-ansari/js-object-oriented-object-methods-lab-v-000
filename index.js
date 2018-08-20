@@ -12,7 +12,7 @@ function BoardMember (name, homeState, training) {
   }
 
   this.doCharity = function() {
-    return "You can do that!";
+    return "I like to help people.";
   }
 
 
